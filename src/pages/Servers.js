@@ -2,8 +2,8 @@ import React from "react";
 
 import { Box, Heading } from "grommet";
 
-export const Servers = () => (
+export const Sandbox = () => (
   <Box fill align="center" justify="center">
-    <Heading>Servers</Heading>
+    <Heading>Sandbox</Heading>
   </Box>
 );

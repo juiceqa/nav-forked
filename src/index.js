@@ -30,19 +30,19 @@ const userSession = {
 
 const items = [
   {
-    label: "Servers",
+    label: "Sandbox",
     Icon: ServersIcon,
-    path: "/servers"
+    path: "/sandbox"
   },
   {
-    label: "Users",
+    label: "Bugs",
     Icon: Group,
-    path: "/users"
+    path: "/bugs"
   },
   {
-    label: "Settings",
+    label: "Routing",
     Icon: SettingsOption,
-    path: "/settings"
+    path: "/routing"
   }
 ];
 
@@ -61,9 +61,9 @@ class App extends Component {
             <Box flex>
               <Switch>
                 <Route path="/" exact component={Dashboard} />
-                <Route path="/servers" component={Servers} />
-                <Route path="/users" component={Users} />
-                <Route path="/settings" component={Settings} />
+                <Route path="/sandbox" component={Servers} />
+                <Route path="/bugs" component={Users} />
+                <Route path="/routing" component={Settings} />
                 <Route component={NotFound} />
               </Switch>
             </Box>
