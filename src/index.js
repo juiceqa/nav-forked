@@ -61,7 +61,10 @@ class App extends Component {
             <Box flex>
               <Switch>
                 <Route path="/" exact component={Dashboard} />
-                <Route path="/sandbox" component={Servers} />
+                <Route
+                  path="https://juicepharmaworldwide.atlassian.net/jira/software/projects/SANDB0X/boards/188"
+                  component={Servers}
+                />
                 <Route path="/bugs" component={Users} />
                 <Route path="/routing" component={Settings} />
                 <Route component={NotFound} />
